@@ -1,0 +1,20 @@
+#form-wrapper {
+    margin: auto;   
+    background-color: rgba(46, 49, 49, .5);
+    padding: 1em;
+}
+ 
+
+input[type="text"], textarea {
+    width: 100%;
+    
+}
+form button {
+    background-color: #003B4A;
+    color: #F69333;
+    /* transition-duration: 0.4s; */
+}
+
+form button:hover {
+    color: rgb(96, 112, 116);;
+}

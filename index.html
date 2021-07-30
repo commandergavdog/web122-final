@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="./assets/styles/style.css">
+	<meta name="author" content="Frank Dominguez">
+	<link rel="icon" type="image/png" href="https://img.icons8.com/ios-filled/50/000000/cat-footprint.png" />
+	<title>DivaPets Rescue</title>
+
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css2?family=Sen:wght@400;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	<div class="page-wrapper">
+		<header>
+			<img src="./assets/images/diva-logo.jpg" alt="DivaPets Logo">
+			<input type="checkbox" id="nav-toggle" class="nav-toggle">
+			<nav>
+				<ul>
+					<li><a href="./index.html">Home</a></li>
+					<li><a href="./details.html">Details</a></li>
+					<li><a href="./adoption.html">Adoption</a></li>
+					<li><a href="./fostering.html">Fostering</a></li>
+				</ul>
+			</nav>
+			<label for="nav-toggle" class="nav-toggle-label">
+				<span></span>
+			</label>
+		</header>
+
+		<section class="intro">
+			<div id="heading">
+				<h1>DivaPets Rescue</h1>				
+			</div>
+
+			<div class="donate">
+				<button><a>Donate Here</a></button>
+			</div>
+
+			<div class="preamble">
+				<h3>Every cat deserves a family of their own</h3>
+				<p>
+					We are a small, foster-based, non-profit cat and kitten rescue. We focus on saving imminently "at
+					risk"cats and kittens, nurturing them until they're ready for adoption and ensuring the best forever
+					home possible.
+				</p>
+				<p>
+					All are spayed/neutered, have age appropriate shots, have been treated for worms and fleas and are
+					micro-chipped.
+				</p>
+				<p>
+					An application is required to ensure a good fit between adopter and other family members and cat or
+					kitten. These felines are looking for FOREVER Homes! (If you have a specific kitten in mind, please
+					include their name in the application.)
+				</p>
+				<p>
+					Kittens are $125 each or two for $200.
+				</p>
+			</div>
+
+			<div class="donate">
+				<button><a>Complete an Application</a></button>
+				<p><a>More information about the adoption process</a></p>
+			</div>
+
+			
+
+		</section>
+
+		<div class="main">
+			<div>
+				<h3>Spay & Neuter</h3>
+				<p>Approximately 1.4 million cats and kittens are euthanized in shelters each year. The Kansas City
+					Metro area has a number of low-cost spay/neuter alternatives for both owned cats and community cats.
+					Reducing the number of animals killed in shelters each year can only be accomplished through your
+					help.​
+				</p>
+			</div>			
+		</div>
+
+		<div id="petfinder">
+			<pet-scroller type='[]' age='[]' limit="12" hidebreed
+				petListtitle="Cats and Kittens Available from DivaPets Rescue" organization="KS195"
+				apibase="https://api.petfinder.com" petfinderurl="https://www.petfinder.com"
+				accesstoken="eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiJtd1NmUDQ1SEpPckFSS0RkVGM1M3JGSjNHVTJIdnk0SUxVSGR5Y3NnNGpURzRCVHIzdCIsImp0aSI6IkNKaWs0aERIMmtCZGpTQXhmQVAxTXltcHNMd0owc1IwU0tnUGVwdFUiLCJpYXQiOjE1OTU4MTUzNDEsIm5iZiI6MTU5NTgxNTM0MSwiZXhwIjo0NzUxNDg4OTQxLCJzdWIiOiIyNzQyMDE3Iiwic2NvcGVzIjpbXX0.k7azN4tBmbfTpZBs0RjtwTLmRyPkY9-NT7C9yaEcByamNuisAWEwmWk8d04RCDKzQS88aP_HlLfHEdAiCYBoZD2ly5au_HkYHhrQhZZUpyeks_AJEbCBC_QxIT80xt4MW8maR2iLYx2JEjgWyARi1J9CEVWBkIFh_00J-w4dsK-xwCzCIpDzoHUFUgJYDkiJUhZ1cVcbQSLOBfdybaa3qN3tMi9Ee9ZciF_nVU0rn2xVPsqfx6dGw_Qw4quImoJK-430NhtWPPFj1wNcWWJepWHNhZqJU5tvBEGSKmvxX6juKLens7zrRvpbamq7Kat5-xPoDCb7F1dRe47Dd7lQmA">
+			</pet-scroller>
+
+			<script src="https://www.petfinder.com/assets/widgets/scripts/main-widgets-web.js">
+			</script>
+		</div>		
+
+		<footer>
+			<a href="./index.html">© <script>document.write(new Date().getFullYear());</script>DivaPets Rescue</a>
+			<a href="mailto:divapetsrescue@gmail.com">divapetsrescue@gmail.com</a>
+		</footer>
+
+
+	</div>
+</body>
